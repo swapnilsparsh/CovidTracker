@@ -33,10 +33,9 @@ Covid Tracker is a Python Application that can be used to track corona cases. Co
 git clone https://github.com/swapnilsparsh/CovidTracker.git
 ```
 
-3. Install the Package: 
+3. Install the dependencies: 
 ```sh
-pip install covid
-pip install matplotlib
+pip install -r requirements.txt
 ```
 
 4. At last, push in the command:
