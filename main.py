@@ -1,6 +1,8 @@
 from covid import Covid
+from matplotlib.widgets import Button
 import matplotlib.pyplot as pyplot
 import numpy as np
+from status import Status
 
 # Taking input from the user
 countries = input("Enter your Country Name (seperated by ',')")
@@ -26,4 +28,12 @@ for idx, country in enumerate(countries):
 
 pyplot.ylabel("Total number")
 pyplot.legend()
+
+# Create a button that shows the status of all the countries in the world
+status = Status()
+statusAX = pyplot.axes([0.01, 0.01, 0.152, 0.06])
+statusButton = Button(statusAX, 'World Status')
+statusButton.on_clicked(status.get_world_status)
+
+# Show plot
 pyplot.show()
