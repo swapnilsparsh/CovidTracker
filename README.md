@@ -2,6 +2,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/swapnilsparsh/CovidTracker">
+    <img src="https://github.com/varadpoddar/CovidTracker/blob/master/logo-tracker.png" >
+  </a>
+<br>
+  <a href="https://github.com/swapnilsparsh/CovidTracker">
     <img src="https://github.com/swapnilsparsh/CovidTracker/blob/master/image.png" >
   </a>
 
